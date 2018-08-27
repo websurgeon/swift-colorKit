@@ -15,6 +15,8 @@
 		52BA7FC0213421D00024399D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA7FBE213421D00024399D /* Color.swift */; };
 		52BA7FC1213421D00024399D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA7FBE213421D00024399D /* Color.swift */; };
 		52BA7FC2213421D00024399D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA7FBE213421D00024399D /* Color.swift */; };
+		52BA7FC421345DD30024399D /* RGBAColor+NSColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA7FC321345DD30024399D /* RGBAColor+NSColorTests.swift */; };
+		52BA7FC621345E6F0024399D /* RGBAColor+NSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA7FC521345E6F0024399D /* RGBAColor+NSColor.swift */; };
 		D025662D213004B300B3D7C9 /* ColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0862273212FF79000AD9D44 /* ColorTests.swift */; };
 		D0862201212FF11A00AD9D44 /* ColorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08621F7212FF11A00AD9D44 /* ColorKit.framework */; };
 		D086221D212FF13000AD9D44 /* ColorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0862214212FF13000AD9D44 /* ColorKit.framework */; };
@@ -54,6 +56,8 @@
 /* Begin PBXFileReference section */
 		52BA7FB9213421800024399D /* RGBAColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAColor.swift; sourceTree = "<group>"; };
 		52BA7FBE213421D00024399D /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		52BA7FC321345DD30024399D /* RGBAColor+NSColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RGBAColor+NSColorTests.swift"; sourceTree = "<group>"; };
+		52BA7FC521345E6F0024399D /* RGBAColor+NSColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RGBAColor+NSColor.swift"; sourceTree = "<group>"; };
 		D08621F7212FF11A00AD9D44 /* ColorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08621FB212FF11A00AD9D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0862200212FF11A00AD9D44 /* ColorKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -251,6 +255,7 @@
 				52BA7FB9213421800024399D /* RGBAColor.swift */,
 				52BA7FBE213421D00024399D /* Color.swift */,
 				D0862261212FF5FB00AD9D44 /* ColorKit.h */,
+				52BA7FC521345E6F0024399D /* RGBAColor+NSColor.swift */,
 			);
 			path = ColorKit;
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 			children = (
 				D086225A212FF25500AD9D44 /* platform */,
 				D0862273212FF79000AD9D44 /* ColorTests.swift */,
+				52BA7FC321345DD30024399D /* RGBAColor+NSColorTests.swift */,
 			);
 			path = ColorKitTests;
 			sourceTree = "<group>";
@@ -559,6 +565,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52BA7FC621345E6F0024399D /* RGBAColor+NSColor.swift in Sources */,
 				52BA7FBB213421800024399D /* RGBAColor.swift in Sources */,
 				52BA7FC0213421D00024399D /* Color.swift in Sources */,
 			);
@@ -568,6 +575,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52BA7FC421345DD30024399D /* RGBAColor+NSColorTests.swift in Sources */,
 				D086227A212FF81A00AD9D44 /* ColorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
