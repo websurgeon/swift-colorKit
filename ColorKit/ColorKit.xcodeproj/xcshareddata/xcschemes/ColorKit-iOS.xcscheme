@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D086222F212FF14300AD9D44"
-               BuildableName = "TemplateFramework.framework"
-               BlueprintName = "TemplateFramework-watchOS"
-               ReferencedContainer = "container:TemplateFramework.xcodeproj">
+               BlueprintIdentifier = "D08621F6212FF11A00AD9D44"
+               BuildableName = "ColorKit.framework"
+               BlueprintName = "ColorKit-iOS"
+               ReferencedContainer = "container:ColorKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D08621FF212FF11A00AD9D44"
+               BuildableName = "ColorKitTests.xctest"
+               BlueprintName = "ColorKit-iOSTests"
+               ReferencedContainer = "container:ColorKit.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D08621F6212FF11A00AD9D44"
+            BuildableName = "ColorKit.framework"
+            BlueprintName = "ColorKit-iOS"
+            ReferencedContainer = "container:ColorKit.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -45,10 +64,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D086222F212FF14300AD9D44"
-            BuildableName = "TemplateFramework.framework"
-            BlueprintName = "TemplateFramework-watchOS"
-            ReferencedContainer = "container:TemplateFramework.xcodeproj">
+            BlueprintIdentifier = "D08621F6212FF11A00AD9D44"
+            BuildableName = "ColorKit.framework"
+            BlueprintName = "ColorKit-iOS"
+            ReferencedContainer = "container:ColorKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +82,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D086222F212FF14300AD9D44"
-            BuildableName = "TemplateFramework.framework"
-            BlueprintName = "TemplateFramework-watchOS"
-            ReferencedContainer = "container:TemplateFramework.xcodeproj">
+            BlueprintIdentifier = "D08621F6212FF11A00AD9D44"
+            BuildableName = "ColorKit.framework"
+            BlueprintName = "ColorKit-iOS"
+            ReferencedContainer = "container:ColorKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
