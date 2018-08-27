@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D025662D213004B300B3D7C9 /* ColorKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0862273212FF79000AD9D44 /* ColorKitTests.swift */; };
+		52BA7FBA213421800024399D /* RGBAColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA7FB9213421800024399D /* RGBAColor.swift */; };
+		52BA7FBB213421800024399D /* RGBAColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA7FB9213421800024399D /* RGBAColor.swift */; };
+		52BA7FBC213421800024399D /* RGBAColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA7FB9213421800024399D /* RGBAColor.swift */; };
+		52BA7FBD213421800024399D /* RGBAColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA7FB9213421800024399D /* RGBAColor.swift */; };
+		52BA7FBF213421D00024399D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA7FBE213421D00024399D /* Color.swift */; };
+		52BA7FC0213421D00024399D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA7FBE213421D00024399D /* Color.swift */; };
+		52BA7FC1213421D00024399D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA7FBE213421D00024399D /* Color.swift */; };
+		52BA7FC2213421D00024399D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BA7FBE213421D00024399D /* Color.swift */; };
+		D025662D213004B300B3D7C9 /* ColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0862273212FF79000AD9D44 /* ColorTests.swift */; };
 		D0862201212FF11A00AD9D44 /* ColorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08621F7212FF11A00AD9D44 /* ColorKit.framework */; };
 		D086221D212FF13000AD9D44 /* ColorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0862214212FF13000AD9D44 /* ColorKit.framework */; };
 		D0862246212FF15D00AD9D44 /* ColorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D086223D212FF15D00AD9D44 /* ColorKit.framework */; };
@@ -15,12 +23,8 @@
 		D0862270212FF6F600AD9D44 /* ColorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D0862261212FF5FB00AD9D44 /* ColorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0862271212FF6FA00AD9D44 /* ColorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D0862261212FF5FB00AD9D44 /* ColorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0862272212FF6FB00AD9D44 /* ColorKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D0862261212FF5FB00AD9D44 /* ColorKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0862274212FF79000AD9D44 /* ColorKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0862273212FF79000AD9D44 /* ColorKitTests.swift */; };
-		D0862276212FF7BD00AD9D44 /* ColorKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0862275212FF7BD00AD9D44 /* ColorKit.swift */; };
-		D0862277212FF81400AD9D44 /* ColorKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0862275212FF7BD00AD9D44 /* ColorKit.swift */; };
-		D0862278212FF81500AD9D44 /* ColorKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0862275212FF7BD00AD9D44 /* ColorKit.swift */; };
-		D0862279212FF81600AD9D44 /* ColorKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0862275212FF7BD00AD9D44 /* ColorKit.swift */; };
-		D086227A212FF81A00AD9D44 /* ColorKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0862273212FF79000AD9D44 /* ColorKitTests.swift */; };
+		D0862274212FF79000AD9D44 /* ColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0862273212FF79000AD9D44 /* ColorTests.swift */; };
+		D086227A212FF81A00AD9D44 /* ColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0862273212FF79000AD9D44 /* ColorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52BA7FB9213421800024399D /* RGBAColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAColor.swift; sourceTree = "<group>"; };
+		52BA7FBE213421D00024399D /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		D08621F7212FF11A00AD9D44 /* ColorKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColorKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08621FB212FF11A00AD9D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0862200212FF11A00AD9D44 /* ColorKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,8 +69,7 @@
 		D0862245212FF15D00AD9D44 /* ColorKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D086224C212FF15D00AD9D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D0862261212FF5FB00AD9D44 /* ColorKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorKit.h; sourceTree = "<group>"; };
-		D0862273212FF79000AD9D44 /* ColorKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorKitTests.swift; sourceTree = "<group>"; };
-		D0862275212FF7BD00AD9D44 /* ColorKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorKit.swift; sourceTree = "<group>"; };
+		D0862273212FF79000AD9D44 /* ColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,8 +248,9 @@
 			isa = PBXGroup;
 			children = (
 				D0862259212FF24300AD9D44 /* platform */,
+				52BA7FB9213421800024399D /* RGBAColor.swift */,
+				52BA7FBE213421D00024399D /* Color.swift */,
 				D0862261212FF5FB00AD9D44 /* ColorKit.h */,
-				D0862275212FF7BD00AD9D44 /* ColorKit.swift */,
 			);
 			path = ColorKit;
 			sourceTree = "<group>";
@@ -253,7 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				D086225A212FF25500AD9D44 /* platform */,
-				D0862273212FF79000AD9D44 /* ColorKitTests.swift */,
+				D0862273212FF79000AD9D44 /* ColorTests.swift */,
 			);
 			path = ColorKitTests;
 			sourceTree = "<group>";
@@ -536,7 +542,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0862276212FF7BD00AD9D44 /* ColorKit.swift in Sources */,
+				52BA7FBA213421800024399D /* RGBAColor.swift in Sources */,
+				52BA7FBF213421D00024399D /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,7 +551,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0862274212FF79000AD9D44 /* ColorKitTests.swift in Sources */,
+				D0862274212FF79000AD9D44 /* ColorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,7 +559,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0862277212FF81400AD9D44 /* ColorKit.swift in Sources */,
+				52BA7FBB213421800024399D /* RGBAColor.swift in Sources */,
+				52BA7FC0213421D00024399D /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,7 +568,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D086227A212FF81A00AD9D44 /* ColorKitTests.swift in Sources */,
+				D086227A212FF81A00AD9D44 /* ColorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,7 +576,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0862278212FF81500AD9D44 /* ColorKit.swift in Sources */,
+				52BA7FBC213421800024399D /* RGBAColor.swift in Sources */,
+				52BA7FC1213421D00024399D /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,7 +585,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0862279212FF81600AD9D44 /* ColorKit.swift in Sources */,
+				52BA7FBD213421800024399D /* RGBAColor.swift in Sources */,
+				52BA7FC2213421D00024399D /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,7 +594,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D025662D213004B300B3D7C9 /* ColorKitTests.swift in Sources */,
+				D025662D213004B300B3D7C9 /* ColorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
